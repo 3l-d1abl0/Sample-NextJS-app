@@ -18,12 +18,12 @@ a {
 .header{
   background-color: black;
   color: white;
-  height: 6vh;
+  padding: 5px;
 }
 
 .footer{
   text-align: center;
-  height: 10vh;
+  
 }
 
 .body{
