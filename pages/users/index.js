@@ -1,8 +1,13 @@
 import React from 'react';
 import axios from 'axios';
-
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 function index({ users }) {
+
+    const router = useRouter();
+
+
     return (
         <div className='m-5'>
             <h3>User List</h3>
@@ -17,7 +22,7 @@ function index({ users }) {
                 </thead>
                 <tbody>
                     {users.map(user => {
-                        return <tr>
+                        return <tr onClick={() => { router.push(`/users/${user.id}`) }}>
                             <td>{user.id}</td>
                             <td>{user.name}</td>
                             <td>{user.username}</td>
