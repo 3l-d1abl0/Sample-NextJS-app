@@ -11,10 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
+      <main className='m-5'>
         <h1 >
           Sample NextJS Project !
         </h1>
+        <p>head over to users/</p>
       </main>
 
     </div>

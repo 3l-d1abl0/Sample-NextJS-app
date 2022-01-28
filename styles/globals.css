@@ -29,3 +29,11 @@ a {
 .body{
   height: 80vh;
 }
+
+tr{
+  cursor: pointer;
+}
+
+main>h1{
+  text-align: center;
+}
