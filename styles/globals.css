@@ -34,6 +34,9 @@ tr{
   cursor: pointer;
 }
 
-main>h1{
+.index-main>h1{
+  text-align: center;
+}
+.index-main>p{
   text-align: center;
 }

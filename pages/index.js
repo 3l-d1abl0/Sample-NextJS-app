@@ -3,6 +3,8 @@ import Image from 'next/image'
 //import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+
   return (
     <div >
       <Head>
@@ -11,11 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='m-5'>
+      <main className='m-5 index-main'>
         <h1 >
           Sample NextJS Project !
         </h1>
-        <p>head over to users/</p>
+        <p>head over to <a href="/users/">users/</a></p>
       </main>
 
     </div>
