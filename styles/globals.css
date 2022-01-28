@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.header{
+  background-color: black;
+  color: white;
+  height: 6vh;
+}
+
+.footer{
+  text-align: center;
+  height: 10vh;
+}
+
+.body{
+  height: 80vh;
+}
